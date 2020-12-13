@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="294b230f-4da0-4b6f-b9b2-43db0e8606b7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variable_and_data_type/main.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator/assignment_operator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator/bitwise_operator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator/logical_operator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator/miscellanous_operator.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/operator/relational_operator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/go_build_operator_main.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/condition_and_loop/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/condition_and_loop/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator/arithmetic_operator.go" beforeDir="false" afterPath="$PROJECT_DIR$/operator/arithmetic_operator.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/operator/main/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/operator/main/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Go File" />
         <option value="Go Application" />
       </list>
     </option>
@@ -26,18 +36,25 @@
     <option name="indexEntireGoPath" value="false" />
   </component>
   <component name="ProjectId" id="1lW51wDhg28uMSOxBBs41JCoyN7" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="GO_FMT" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/operator" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -46,31 +63,32 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="go.vgo" />
   </component>
-  <component name="RunManager" selected="Go Build.go build basic/main">
-    <configuration name="go build basic/main" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\Programming\Go\basic\variable_and_data_type" />
+      <recent name="F:\Programming\Go\basic\variable_and_data_type\main" />
+      <recent name="F:\Programming\Go\basic\main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Programming\Go\basic\operator" />
+      <recent name="F:\Programming\Go\basic\condition_and_loop" />
+      <recent name="F:\Programming\Go\basic\main" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Go Build.go build operator/main">
+    <configuration name="go build operator/main" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
       <module name="basic" />
-      <working_directory value="$PROJECT_DIR$" />
+      <working_directory value="$PROJECT_DIR$/operator" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/main/main.go" />
-      <package value="basic/main" />
+      <filePath value="$PROJECT_DIR$/operator/main/main.go" />
+      <package value="operator/main" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build variable.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="basic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/variable_and_data_type/variable.go" />
-      <package value="basic" />
-      <directory value="$PROJECT_DIR$/" />
-      <method v="2" />
-    </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Go Build.go build basic/main" />
-        <item itemvalue="Go Build.go build variable.go" />
-      </list>
-    </recent_temporary>
+    <list>
+      <item itemvalue="Go Build.go build operator/main" />
+      <item itemvalue="Go Build.go build variable_and_data_type/main" />
+    </list>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -80,18 +98,66 @@
       <option name="presentableId" value="Default" />
       <updated>1607699794951</updated>
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1607702344456</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607702344456</updated>
+    </task>
+    <task id="LOCAL-00002" summary="first commit">
+      <created>1607874891166</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1607874891166</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+  </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
   </component>
   <component name="WindowStateProjectService">
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1607874747763">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="223" y="67" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1607874747763" />
     <state x="609" y="0" key="#go_build_variable.go" timestamp="1607701937596">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="609" y="0" key="#go_build_variable.go/0.0.1536.824@0.0.1536.824" timestamp="1607701937596" />
+    <state x="391" y="0" key="CommitChangelistDialog2" timestamp="1607874889481">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="391" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1607874889481" />
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom" timestamp="1607879027150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1607879027150" />
+    <state width="1493" height="204" key="GridCell.Tab.0.center" timestamp="1607879027150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1607879027150" />
+    <state width="1493" height="204" key="GridCell.Tab.0.left" timestamp="1607879027150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1607879027150" />
+    <state width="1493" height="204" key="GridCell.Tab.0.right" timestamp="1607879027150">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="204" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1607879027150" />
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2" timestamp="1607702329618">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="141" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1607702329618" />
   </component>
 </project>

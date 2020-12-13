@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="go build variable_and_data_type/main" type="GoApplicationRunConfiguration" factoryName="Go Application" nameIsGenerated="true">
+    <module name="basic" />
+    <working_directory value="$PROJECT_DIR$/variable_and_data_type" />
+    <kind value="PACKAGE" />
+    <filePath value="$PROJECT_DIR$/variable_and_data_type/main/variable.go" />
+    <package value="variable_and_data_type/main" />
+    <directory value="$PROJECT_DIR$/" />
+    <method v="2" />
+  </configuration>
+</component>
