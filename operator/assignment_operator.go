@@ -2,7 +2,7 @@ package operator
 
 import "fmt"
 
-func AssignmentOperatorDemo() {
+func assignmentOperatorDemo() {
 	var e = 60
 	fmt.Printf("e = %d\n", e)
 	e += 5

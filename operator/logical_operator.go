@@ -2,7 +2,7 @@ package operator
 
 import "fmt"
 
-func LogicalOperatorDemo() {
+func logicalOperatorDemo() {
 	var c = true
 	var d = false
 	fmt.Printf("c = %t\n", c)

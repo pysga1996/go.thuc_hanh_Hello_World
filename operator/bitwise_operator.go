@@ -2,7 +2,7 @@ package operator
 
 import "fmt"
 
-func BitwiseOperatorDemo() {
+func bitwiseOperatorDemo() {
 	var p = 60
 	var q = 13
 	fmt.Printf("p = %08b (%d)\n", p, p)
