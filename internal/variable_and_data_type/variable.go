@@ -2,7 +2,7 @@ package variable_and_data_type
 
 import "fmt"
 
-func variableDemo() {
+func VariableDemo() {
 	// static variable declaration
 	var x float64
 	x = 20.0

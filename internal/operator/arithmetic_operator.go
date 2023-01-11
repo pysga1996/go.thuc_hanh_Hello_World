@@ -2,7 +2,7 @@ package operator
 
 import "fmt"
 
-func arithmeticOperatorDemo() {
+func ArithmeticOperatorDemo() {
 	var x = 40
 	var y = 20
 	fmt.Printf("x = %d\n", x)

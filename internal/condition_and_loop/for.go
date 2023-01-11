@@ -3,7 +3,7 @@ package condition_and_loop
 import "fmt"
 
 // for demo
-func demoForLoop() {
+func DemoForLoop() {
 	sum := 0
 	for i := 0; i < 10; i++ {
 		sum += i
@@ -12,7 +12,7 @@ func demoForLoop() {
 }
 
 // demo for continued loop
-func demoForContinued() {
+func DemoForContinued() {
 	sum := 1
 	for sum < 1000 {
 		sum += sum
@@ -21,7 +21,7 @@ func demoForContinued() {
 }
 
 // demo for as while loop
-func demoForAsWhile() {
+func DemoForAsWhile() {
 	sum := 1
 	for sum < 1000 {
 		sum += sum
@@ -31,7 +31,7 @@ func demoForAsWhile() {
 
 // demo forever loop
 
-func demoForever() {
+func DemoForever() {
 	//for  {
 	//
 	//}

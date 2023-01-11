@@ -6,7 +6,7 @@ import (
 )
 
 // if demo
-func demoIf() {
+func DemoIf() {
 	fmt.Println(sqrt(2), sqrt(-4))
 }
 
@@ -17,7 +17,7 @@ func sqrt(x float64) string {
 	return fmt.Sprint(math.Sqrt(x))
 }
 
-func demoIfWithShortStatement() {
+func DemoIfWithShortStatement() {
 	fmt.Println(
 		pow1(3, 2, 10),
 		pow1(3, 3, 20),
@@ -31,7 +31,7 @@ func pow1(x, n, lim float64) float64 {
 	return lim
 }
 
-func demoIfElseWithShortStatement() {
+func DemoIfElseWithShortStatement() {
 	fmt.Println(
 		pow2(3, 2, 10),
 		pow2(3, 3, 20),

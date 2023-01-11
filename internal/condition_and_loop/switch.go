@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func demoSwitch() {
+func DemoSwitch() {
 	fmt.Print("Go runs on ")
 	switch os := runtime.GOOS; os {
 	case "darwin":
@@ -20,7 +20,7 @@ func demoSwitch() {
 	}
 }
 
-func demoSwitchEvaluationOrder() {
+func DemoSwitchEvaluationOrder() {
 	fmt.Println("When's Saturday?")
 	today := time.Now().Weekday()
 	switch time.Saturday {
@@ -35,7 +35,7 @@ func demoSwitchEvaluationOrder() {
 	}
 }
 
-func demoSwitchWithNoCondition() {
+func DemoSwitchWithNoCondition() {
 	t := time.Now()
 	switch {
 	case t.Hour() < 12:

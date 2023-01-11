@@ -2,7 +2,7 @@ package variable_and_data_type
 
 import "fmt"
 
-func constantDemo() {
+func ConstantDemo() {
 	// constant
 	const LENGTH int = 10
 	const WIDTH int = 5

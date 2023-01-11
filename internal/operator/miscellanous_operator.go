@@ -2,7 +2,7 @@ package operator
 
 import "fmt"
 
-func miscellaneousOperatorDemo() {
+func MiscellaneousOperatorDemo() {
 	var f = 21
 	fmt.Printf("f = %d\n", f)
 	fmt.Printf("Address of f is %p\n", &f)

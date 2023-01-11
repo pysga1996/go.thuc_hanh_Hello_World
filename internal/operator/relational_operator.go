@@ -2,7 +2,7 @@ package operator
 
 import "fmt"
 
-func relationalOperatorDemo() {
+func RelationalOperatorDemo() {
 	var a = 40
 	var b = 20
 	fmt.Printf("a = %d\n", a)
